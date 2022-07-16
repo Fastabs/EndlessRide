@@ -84,7 +84,7 @@ public class CarController : MonoBehaviour
             case "SportCar": if (indexSpeed >= 25)
                 {
                     indexSpeed = 24.7f;
-                    trigger.tag = "redCar";
+                    trigger.tag = "SportCar";
                 }
                 break;
 
